@@ -10,19 +10,17 @@ body{
     font-size: 1.5rem;
     color: #fca61f;
 }
-nav{
-    width: 100% !important;
-    overflow: hidden !important;
-    position: fixed !important;
-    top: 0%;
-    z-index: 6;
-}
 /* styling navbar links  */
  .navbar-nav a:hover{
     color: #fca61f;
 }
+header{
+    background: bisque !important;
+    overflow: hidden !important;
+    width: 100%;
+}
 .navbar img{
-    overflow: hidden  !important;
+    overflow: hidden;
 }
 .c-btn{
     overflow: hidden !important;
@@ -86,6 +84,21 @@ nav{
 .c-btn2 a{
     text-decoration: none;
     color: white;
+}
+.whatsappbtnhom{
+    width: 80px;
+    padding: 15px 25px 15px 25px;
+    border-radius: 40px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    font-size: 15px;
+    color: #3f396d;
+    background: #fca61f;
+}
+.whatsappbtnhom:hover{
+    background: white;
+    border: 1px solid #fca61f;
+    color: #fca61f;
 }
 .h-btn:hover{
     background: #6f34fe;
