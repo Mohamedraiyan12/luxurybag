@@ -18,6 +18,8 @@ header{
     background: bisque !important;
     overflow: hidden !important;
     width: 100%;
+    position: fixed;
+    top: 0%;
 }
 .navbar img{
     overflow: hidden;
